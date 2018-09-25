@@ -1,0 +1,22 @@
+{
+    "name": "homelan/core-filesystem",
+    "description": "Extends the filesystem class from symfony.",
+    "keywords": ["filesystem"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Brown",
+            "email": "packaging@home-lan.co.uk"
+        }
+    ],
+    "type": "project",
+    "require": {
+	"php": ">=7.1",
+        "symfony/filesystem": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "HomeLan\\Core\\Filesystem\\": "src/"
+        }
+    }
+}
